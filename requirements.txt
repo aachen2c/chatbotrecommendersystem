@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+gensim
+spacy
+langchain
+langchain_community
+langchain_core
+langchain_google_genai
+scikit-learn
+geocoder
+requests
