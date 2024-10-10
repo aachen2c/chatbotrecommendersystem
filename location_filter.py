@@ -1,4 +1,6 @@
 import geocoder
+'''This file contains some functions for handling the "near me" detection capability of the recommender system. It uses the geocoder library to get lat/long
+coordinates from an IP address and then filters on events within 50km of those coordinates.'''
 
 def get_current_location():
     g = geocoder.ip('me')
